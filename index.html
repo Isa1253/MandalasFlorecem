@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      
+
+      <div class= "passo ativo" id="passo-0">
+        <img src= "logo.png">
+        <p> Kikyou, a deusa da eternidade, era conhecida por habitar um planeta envolto em mistério, cuja origem era desconhecida até para os deuses mais sábios. Diziam que ela existia desde antes da criação do universo, e sua idade era um segredo tão profundo quanto o próprio cosmos. Ela era um ser de beleza e poder incomparáveis, com cabelos brancos em um penteado curto que acentuava seus traços firmes e olhos profundos, que pareciam guardar as galáxias em seu olhar. Kikyou usava um grande kimono, que mudava de cor conforme a luz, refletindo os brilhos do espaço e transmitindo uma aura de divindade.
+
+No centro de seu planeta, Kikyou vivia em um templo magnífico e sagrado. As paredes desse templo eram de cristal, e em seus arredores, floresciam as mandalas, flores de poderes curativos extraordinários que Kikyou havia criado há trilhões de anos. As mandalas não apenas curavam qualquer doença ou ferimento, mas também fortaleciam Kikyou e sua terra, irradiando uma energia luminosa e imortal.
+
+Um dia, ao caminhar por seu jardim, Kikyou percebeu que todas as mandalas haviam desaparecido misteriosamente. O jardim que antes exalava um aroma suave e cintilava com a luz das flores agora estava vazio e sem vida. A fúria tomou conta da deusa; era impensável que alguém ousasse violar seu território sagrado. Kikyou jurou que mataria quem quer que tivesse roubado suas mandalas.
+
+O ladrão, no entanto, parecia não saber que as mandalas exalavam um cheiro único e brilhavam intensamente ao serem arrancadas do solo. Esse brilho e aroma eram invisíveis para outros seres, mas para Kikyou, formavam uma trilha clara, guiando-a até onde as flores haviam sido levadas. A deusa seguiu essa trilha pelo espaço até chegar a uma encruzilhada no cosmos, onde surgiram dois portais flutuando diante dela, indicando dois caminhos possíveis para encontrar o ladrão. </p> 
+        
+        <button class="proximo" data-proximo="1"> Portal Amarelo</button>
+        <button class="proximo" data-proximo="2"> Portal Branco</button>
+        </div>
+      
+       <div class= "passo" id="passo-1">
+        <img src= "logo.png">
+        <p> Kikyou escolheu o portal amarelo, que a levou até uma galáxia distante dominada por tempestades de energia, o reino de Theros, o deus da guerra. As pistas indicavam que ele poderia ter envolvimento com o roubo, pois, em lendas antigas, era dito que ele ansiava pelo poder das mandalas para fortalecer seus próprios exércitos. Em meio a estrelas e campos de energia turbulentos, Kikyou encontrou uma nova encruzilhada, dois caminhos, um azul e um amarelo. Qual ela deveria cruzar? </p> 
+        
+        <button class="proximo" data-proximo="3"> Caminho Azul </button>
+        <button class="proximo" data-proximo="4"> Caminho Amarelo </button>
+        </div>
+      
+         <div class="passo" id="passo-2"> 
+<img src="logo.png">
+      <p>
+       Ao escolher o portal branco, Kikyou foi transportada para uma nebulosa de tons verdes e púrpuras. Era o domínio de Sylphira, a deusa dos ventos e segredos. Conhecida por ser habilidosa em obter informações ocultas e segredos, Sylphira poderia saber do paradeiro das mandalas ou até mesmo ter sido a responsável pelo roubo. À sua frente, novos caminhos se abriram. 
+      </p>
+      
+      <button class="proximo" data-proximo="5"> Caminho de lantejoulas douradas
+        
+      </button>
+      
+      <button class="proximo" data-proximo="6"> Caminho arco íris
+        
+      </button>
+      </div>
+     
+        <div class="passo" id="passo-5">
+<img src="logo.png">
+      <p>
+      Kikyou avançou pelo caminho de lantejoulas douradas, onde Sylphira a aguardava em uma sala repleta de espelhos, cada um mostrando reflexos do passado e do presente. Sylphira propôs um enigma, afirmando que, se Kikyou o resolvesse, ela revelaria o paradeiro das mandalas. A deusa aceitou o desafio, mas tinha dois caminhos para escolher.
+
+      </p>
+      
+      <button class="proximo" data-proximo="7">
+      O Enigma  
+      </button>
+      
+      <button class="proximo" data-proximo="8">
+        O Labirinto Ilusório
+      </button>
+      </div>
+      
+      <div class="passo" id="passo-6">
+<img src="perdeu.png">
+      <p>
+     
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+        Reiniciar? 🕹
+      </button>
+
+      </div>
+    
+        <div class="passo" id="passo-7"> 
+<img src="ganhou.png">
+      <p>
+        Ao escolher o enigma, Kikyou enfrentou e superou o enigma de Sylphira, provando sua sabedoria. Em recompensa, Sylphira revelou onde estavam escondidas as mandalas. Kikyou recuperou suas preciosas flores e voltou ao seu planeta para restaurar o equilíbrio e a força.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+    
+      </div>
+      
+        <div class="passo" id="passo-8"> 
+<img src="logo.png">
+      <p>
+        Escolhendo o labirinto ilusório, Kikyou seguiu por um labirinto ilusório, onde os ventos guiados por Sylphira confundiram seu caminho e driblaram sua força. Incapaz de avançar, Kikyou se viu obrigada a recuar, e Sylphira se fechou em silêncio, ocultando para sempre o paradeiro das mandalas.  
+      </p>
+      
+      <button class="proximo" data-proximo="3">
+       
+      </button>
+      
+      <button class="proximo" data-proximo="4">
+        
+      </button>
+      </div>
+       
+        <div class="passo" id="passo-3">
+<img src="logo.png">
+      <p>
+       Ao seguir pelo caminho azul, Kikyou encontrou-se em uma arena onde Theros estava à sua espera. Mas, surpreendentemente, ele decidiu se render e entregar as mandalas, admitindo que as havia roubado para estudar seu poder, mas que não esperava que Kikyou os seguisse até ali. Ela recuperou as flores e retornou triunfante ao seu planeta.  
+      </p>
+      
+      <button class="proximo" data-proximo="9">
+        venceu
+      </button>
+      
+      <button class="proximo" data-proximo="10">
+        venceu
+      </button>
+      </div>
+      
+    <div class="passo" id="passo-4">
+<img src="ganhou.png">
+      <p>
+        Kikyou seguiu pelo caminho amarelo e encontrou uma pista final deixada por Theros, indicando um pequeno planeta onde as mandalas estavam escondidas. Ela chegou ao planeta e recuperou suas flores, retornando em segurança ao seu mundo, onde as plantou novamente em seu jardim sagrado.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+      
+      </div>
+      
+        <div class="passo" id="passo-10">
+<img src="perdeu.png">
+      <p>
+       
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+        Reiniciar? 🕹
+        
+      </button>
+      
+      </div>
+      
+            <div class="passo" id="passo-9">
+<img src="ganhou.png">
+      <p>
+       
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+      
+
+      </div>
+    
+    </main>
+    
+    
+    <footer>
+      <p> Criado por <a href="https://github.com/isa1253">
+        Isabella</a></p>
+    </footer>
+    <script src="sketch.js"></script>
+  </body>
+</html>
